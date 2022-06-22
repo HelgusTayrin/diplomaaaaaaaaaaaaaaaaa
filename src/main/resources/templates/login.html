@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+	<link href="../../../../../Users/OlegM/Desktop/Диплом%20frontend/Авторизация/css/main.css" rel="stylesheet" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+</head>
+<body>
+	<div class="limiter">
+		<div class="main_container">
+			<div class="login_form_background">
+				<form action="/home" method="get" class="login_form validate-form">
+					<span class="autorization_title">Авторизация</span>
+					<div class="wrap-input validate-input" data-validate = "Valid email is: a@b.c">
+						<input class="input" type="text" name="email">
+						<span class="focus-input" data-placeholder="Логин"></span>
+					</div>
+					
+					<div class="wrap-input validate-input" data-validate="Enter password">
+						<input class="input" type="password" name="pass">
+						<span class="focus-input" data-placeholder="Пароль"></span>
+					</div>
+					
+					<div class="enter_button_group">
+						<div class="enter_wrap_button">
+							<div class="enter_background_button"></div>
+							<button class="enter_button">
+								Войти
+							</button>
+						</div>
+					</div>
+					
+					<div>
+						<span class="txt1">
+							Нет аккаунта?
+						</span>
+
+						<a class="txt2" href="#">
+							Создайте!
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
